@@ -14,7 +14,7 @@ var mailOptions = {
     from:'maaaxafrica@gmail.com',
     to:'maashaaabdiaziz@gmail.com',
     subject:'Sending Email using Node.js',
-    text: 'from wiil to gabar!'
+    text: 'Hello I am Abdiaziz Maashaa!'
 }
 transporter.sendMail(mailOptions, function(error, info){
     if (error) { 
